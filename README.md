@@ -7,9 +7,9 @@
 
 ## Used Libraries
 
-- [React]
 - [Styled-components]
 - [Google Maps API]
+- [React]
 - [OpenWeatherMap API]
 - [Chart.js]
 - [Material-UI]

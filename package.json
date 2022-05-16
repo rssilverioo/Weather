@@ -1,0 +1,58 @@
+{
+  "name": "weather-mapping",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "@headlessui/react": "^1.6.1",
+    "@react-google-maps/api": "^2.10.2",
+    "chart.js": "^3.7.1",
+    "react": "^18.1.0",
+    "react-chartjs-2": "^4.1.0",
+    "react-dom": "^18.1.0",
+    "react-places-autocomplete": "^7.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.5"
+  },
+  "scripts": {
+    "start": "ESLINT_NO_DEV_ERRORS=true start",
+    "build": "build",
+    "test": "test",
+    "eject": "eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "prettier": "^2.6.2"
+  }
+}
