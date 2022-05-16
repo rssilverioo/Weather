@@ -1,11 +1,9 @@
 module.exports = {
+
   env: {
     browser: true,
     es2021: true,
   },
-  rules: {
-    'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
-},
   extends: [
     'plugin:react/recommended',
     'airbnb',

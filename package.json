@@ -16,10 +16,10 @@
     "styled-components": "^5.3.5"
   },
   "scripts": {
-    "start": "start",
-    "build": "build",
-    "test": "test",
-    "eject": "eject"
+    "start": "ESLINT_NO_DEV_ERRORS=true craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
   },
   "eslintConfig": {
     "extends": [
