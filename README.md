@@ -1,4 +1,8 @@
 
+## Deployed > 
+-> https://symphonious-seahorse-2e2214.netlify.app/
+
+
 ## Functionalities
 
 - Search the city and mark it on the map
